@@ -1,0 +1,28 @@
+import { Button } from '@/components/ui/button';
+import { ChevronRight } from 'lucide-react';
+
+export function Cta() {
+  return (
+    <section className="py-16 md:py-24 bg-white">
+      <div className="container mx-auto px-4 md:px-6">
+        <div className="bg-gradient-to-br from-[#7649B0] to-[#28124C] rounded-3xl p-8 md:p-16 text-center text-white shadow-2xl">
+          <h2 className="text-3xl md:text-5xl font-bold mb-6">
+            ¡No Pierdas Esta Oportunidad!
+          </h2>
+          <p className="text-xl mb-8 max-w-2xl mx-auto text-purple-100">
+            Solo quedan <span className="font-bold text-3xl text-white">100</span> vouchers disponibles
+          </p>
+          <div className="flex flex-col sm:flex-row gap-4 justify-center">
+            <Button className="bg-white text-[#7649B0] hover:bg-gray-100 text-xl px-12 py-8 shadow-xl">
+              Comprar Ahora - $39.990
+              <ChevronRight className="ml-2 w-6 h-6" />
+            </Button>
+          </div>
+          <p className="text-sm mt-8 text-purple-200">
+            Oferta válida del 27 al 30 de noviembre de 2025
+          </p>
+        </div>
+      </div>
+    </section>
+  );
+}
