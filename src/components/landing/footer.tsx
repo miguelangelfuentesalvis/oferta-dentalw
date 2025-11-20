@@ -1,7 +1,6 @@
 import {
   WHATSAPP_PROMO_URL,
-  EMAIL_ADDRESS,
-  MAILTO_HREF
+  EMAIL_ADDRESS
 } from '@/lib/constants';
 
 export function Footer() {
@@ -26,12 +25,9 @@ export function Footer() {
               >
                 WhatsApp: +56 9 6788 8588
               </a>
-              <a
-                href={MAILTO_HREF}
-                className="block hover:text-white transition"
-              >
+              <p>
                 Email: {EMAIL_ADDRESS}
-              </a>
+              </p>
             </div>
           </div>
           <div className="md:col-span-1">
