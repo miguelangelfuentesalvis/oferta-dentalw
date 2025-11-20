@@ -23,10 +23,10 @@ export function Footer() {
           <div>
             <h4 className="font-bold mb-4 text-[#B98DFF]">Síguenos</h4>
             <div className="flex gap-4 justify-center md:justify-start">
-              <a href="https://www.instagram.com/dentalw.cl" target="_blank" rel="noopener noreferrer" className="text-purple-200 hover:text-white transition">
+              <a href="https://www.instagram.com/clinicadentalw/" target="_blank" rel="noopener noreferrer" className="text-purple-200 hover:text-white transition">
                 Instagram
               </a>
-              <a href="https://www.facebook.com/dentalw.cl" target="_blank" rel="noopener noreferrer" className="text-purple-200 hover:text-white transition">
+              <a href="https://www.facebook.com/people/Cl%C3%ADnica-Dental-W/61581809440516/" target="_blank" rel="noopener noreferrer" className="text-purple-200 hover:text-white transition">
                 Facebook
               </a>
             </div>
@@ -34,7 +34,7 @@ export function Footer() {
         </div>
         <div className="border-t border-purple-800 mt-8 pt-8 text-center text-purple-300 text-sm">
           <p>© 2025 Clínica Dental W. Todos los derechos reservados.</p>
-           <a href="/politica-de-privacidad" className="underline hover:text-white mt-2 inline-block">
+           <a href="https://dentalw.cl/politica-de-privacidad/" target="_blank" rel="noopener noreferrer" className="underline hover:text-white mt-2 inline-block">
             Política de Privacidad
           </a>
         </div>
