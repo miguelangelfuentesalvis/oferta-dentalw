@@ -29,14 +29,14 @@ export function Footer() {
               <a href="https://www.facebook.com/dentalw.cl" target="_blank" rel="noopener noreferrer" className="text-purple-200 hover:text-white transition">
                 Facebook
               </a>
-              <a href="#" className="text-purple-200 hover:text-white transition">
-                TikTok
-              </a>
             </div>
           </div>
         </div>
         <div className="border-t border-purple-800 mt-8 pt-8 text-center text-purple-300 text-sm">
           <p>© 2025 Clínica Dental W. Todos los derechos reservados.</p>
+           <a href="/politica-de-privacidad" className="underline hover:text-white mt-2 inline-block">
+            Política de Privacidad
+          </a>
         </div>
       </div>
     </footer>
