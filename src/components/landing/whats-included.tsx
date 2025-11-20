@@ -1,5 +1,6 @@
 import { Card, CardContent } from '@/components/ui/card';
 import { Sparkles, Shield, Calendar } from 'lucide-react';
+import { WHATSAPP_PROMO_URL } from '@/lib/constants';
 
 const includedItems = [
   {
@@ -75,22 +76,24 @@ export function WhatsIncluded() {
         </div>
 
         <div className="mt-12 text-center">
-          <Card className="inline-block border-2 border-[#7649B0]">
-            <CardContent className="py-6 px-8">
-              <div className="flex items-center gap-4">
-                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="lucide lucide-award w-12 h-12 text-[#7649B0]"><path d="m15.477 12.89 1.515 8.526a.5.5 0 0 1-.81.47l-3.58-2.687a1 1 0 0 0-1.197 0l-3.586 2.686a.5.5 0 0 1-.81-.469l1.514-8.526"></path><circle cx="12" cy="8" r="6"></circle></svg>
-                <div className="text-left">
-                  <div className="text-sm text-gray-600">Valor Total Real</div>
-                  <div className="text-3xl font-bold text-[#28124C]">$80.000</div>
-                </div>
-                <div className="text-4xl font-bold text-gray-300 mx-4">→</div>
-                <div className="text-left">
-                  <div className="text-sm text-[#7649B0] font-semibold">Precio Black Friday</div>
-                  <div className="text-4xl font-bold text-[#7649B0]">$39.990</div>
-                </div>
-              </div>
-            </CardContent>
-          </Card>
+            <a href={WHATSAPP_PROMO_URL} target="_blank" rel="noopener noreferrer" className="inline-block transition-transform duration-300 hover:scale-105">
+                <Card className="inline-block border-2 border-[#7649B0] shadow-lg hover:shadow-2xl">
+                    <CardContent className="py-6 px-8">
+                    <div className="flex items-center gap-4">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="lucide lucide-award w-12 h-12 text-[#7649B0]"><path d="m15.477 12.89 1.515 8.526a.5.5 0 0 1-.81.47l-3.58-2.687a1 1 0 0 0-1.197 0l-3.586 2.686a.5.5 0 0 1-.81-.469l1.514-8.526"></path><circle cx="12" cy="8" r="6"></circle></svg>
+                        <div className="text-left">
+                        <div className="text-sm text-gray-600">Valor Total Real</div>
+                        <div className="text-3xl font-bold text-[#28124C]">$80.000</div>
+                        </div>
+                        <div className="text-4xl font-bold text-gray-300 mx-4">→</div>
+                        <div className="text-left">
+                        <div className="text-sm text-[#7649B0] font-semibold">Precio Black Friday</div>
+                        <div className="text-4xl font-bold text-[#7649B0]">$39.990</div>
+                        </div>
+                    </div>
+                    </CardContent>
+                </Card>
+            </a>
         </div>
       </div>
     </section>
