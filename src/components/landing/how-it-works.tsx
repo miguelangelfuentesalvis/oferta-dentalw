@@ -31,7 +31,7 @@ export function HowItWorks() {
           <h2 className="text-3xl md:text-5xl font-bold text-[#28124C] mb-4">¿Cómo Funciona?</h2>
           <p className="text-xl text-gray-600">Simple, rápido y sin complicaciones</p>
         </div>
-        <div className="grid md:grid-cols-4 gap-8">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
           {steps.map((step, index) => (
             <div key={index} className="relative">
               <div className="bg-white rounded-2xl p-6 shadow-lg hover:shadow-xl transition-shadow h-full">
