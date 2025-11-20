@@ -18,10 +18,8 @@ export function CountdownBanner() {
     minutes: number;
     seconds: number;
   } | null>(null);
-  const [isClient, setIsClient] = useState(false);
 
   useEffect(() => {
-    setIsClient(true);
     const targetDate = new Date('2025-11-30T23:59:59');
 
     const interval = setInterval(() => {
@@ -42,10 +40,24 @@ export function CountdownBanner() {
       }
     }, 1000);
 
+    // Initial call to set time immediately
+    const now = new Date();
+    const difference = targetDate.getTime() - now.getTime();
+    if (difference > 0) {
+        const days = Math.floor(difference / (1000 * 60 * 60 * 24));
+        const hours = Math.floor((difference % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+        const minutes = Math.floor((difference % (1000 * 60 * 60)) / (1000 * 60));
+        const seconds = Math.floor((difference % (1000 * 60)) / 1000);
+        setTimeLeft({ days, hours, minutes, seconds });
+    } else {
+        setTimeLeft({ days: 0, hours: 0, minutes: 0, seconds: 0 });
+    }
+
+
     return () => clearInterval(interval);
   }, []);
 
-  if (!isClient || !timeLeft) {
+  if (!timeLeft) {
     return (
        <section className="bg-[#28124C] text-white py-8">
         <div className="container mx-auto px-4 md:px-6">
