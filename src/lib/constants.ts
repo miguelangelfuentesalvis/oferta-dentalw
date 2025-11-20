@@ -7,3 +7,7 @@ export const EMAIL_SUBJECT = 'Interesado en Promoción Black Friday';
 
 export const EMAIL_BODY =
   'Hola, me interesa la promoción del Black Friday de estos días. Limpieza + Evaluación, y quizás flúor. Me indica cual es la sucursal más cercana? Que día tiene disponible?';
+
+export const MAILTO_HREF = `mailto:${EMAIL_ADDRESS}?subject=${encodeURIComponent(
+  EMAIL_SUBJECT
+)}&body=${encodeURIComponent(EMAIL_BODY)}`;

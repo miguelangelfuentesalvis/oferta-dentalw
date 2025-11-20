@@ -1,15 +1,10 @@
 import {
   WHATSAPP_PROMO_URL,
   EMAIL_ADDRESS,
-  EMAIL_SUBJECT,
-  EMAIL_BODY,
+  MAILTO_HREF
 } from '@/lib/constants';
 
 export function Footer() {
-  const mailtoHref = `mailto:${EMAIL_ADDRESS}?subject=${encodeURIComponent(
-    EMAIL_SUBJECT
-  )}&body=${encodeURIComponent(EMAIL_BODY)}`;
-
   return (
     <footer className="bg-[#28124C] text-white py-12">
       <div className="container mx-auto px-4 md:px-6">
@@ -32,7 +27,7 @@ export function Footer() {
                 WhatsApp: +56 9 6788 8588
               </a>
               <a
-                href={mailtoHref}
+                href={MAILTO_HREF}
                 className="block hover:text-white transition"
               >
                 Email: {EMAIL_ADDRESS}
