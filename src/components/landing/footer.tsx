@@ -1,3 +1,5 @@
+import { WHATSAPP_PROMO_URL } from '@/lib/constants';
+
 export function Footer() {
   return (
     <footer className="bg-[#28124C] text-white py-12">
@@ -12,17 +14,19 @@ export function Footer() {
           <div>
             <h4 className="font-bold mb-4 text-[#B98DFF]">Contacto</h4>
             <div className="space-y-2 text-purple-200">
-              <p>WhatsApp: +56 9 1234 5678</p>
+              <a href={WHATSAPP_PROMO_URL} target="_blank" rel="noopener noreferrer" className="block hover:text-white transition">
+                WhatsApp: +56 9 6788 8588
+              </a>
               <p>Email: contacto@dentalw.cl</p>
             </div>
           </div>
           <div>
             <h4 className="font-bold mb-4 text-[#B98DFF]">Síguenos</h4>
             <div className="flex gap-4 justify-center md:justify-start">
-              <a href="#" className="text-purple-200 hover:text-white transition">
+              <a href="https://www.instagram.com/dentalw.cl" target="_blank" rel="noopener noreferrer" className="text-purple-200 hover:text-white transition">
                 Instagram
               </a>
-              <a href="#" className="text-purple-200 hover:text-white transition">
+              <a href="https://www.facebook.com/dentalw.cl" target="_blank" rel="noopener noreferrer" className="text-purple-200 hover:text-white transition">
                 Facebook
               </a>
               <a href="#" className="text-purple-200 hover:text-white transition">

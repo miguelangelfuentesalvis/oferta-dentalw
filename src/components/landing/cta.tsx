@@ -1,5 +1,6 @@
 import { Button } from '@/components/ui/button';
 import { ChevronRight } from 'lucide-react';
+import { WHATSAPP_PROMO_URL } from '@/lib/constants';
 
 export function Cta() {
   return (
@@ -13,10 +14,12 @@ export function Cta() {
             Solo quedan <span className="font-bold text-3xl text-white">100</span> vouchers disponibles
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <Button className="bg-white text-[#7649B0] hover:bg-gray-100 text-xl px-12 py-8 shadow-xl">
-              Comprar Ahora - $39.990
-              <ChevronRight className="ml-2 w-6 h-6" />
-            </Button>
+            <a href={WHATSAPP_PROMO_URL} target="_blank" rel="noopener noreferrer">
+              <Button className="bg-white text-[#7649B0] hover:bg-gray-100 text-xl px-12 py-8 shadow-xl">
+                Comprar Ahora - $39.990
+                <ChevronRight className="ml-2 w-6 h-6" />
+              </Button>
+            </a>
           </div>
           <p className="text-sm mt-8 text-purple-200">
             Oferta válida del 27 al 30 de noviembre de 2025
