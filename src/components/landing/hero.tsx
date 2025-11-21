@@ -4,7 +4,7 @@ import Image from 'next/image';
 import { Button } from '@/components/ui/button';
 import { Badge } from '@/components/ui/badge';
 import { Progress } from '@/components/ui/progress';
-import { Sparkles, ChevronRight, MessageCircle } from 'lucide-react';
+import { Sparkles, ChevronRight, ExternalLink } from 'lucide-react';
 import { WHATSAPP_PROMO_URL } from '@/lib/constants';
 import React, { useState, useEffect } from 'react';
 
@@ -60,10 +60,12 @@ export function Hero() {
                   <ChevronRight className="ml-2 w-5 h-5" />
                 </Button>
               </a>
-              <Button variant="outline" className="border-[#7649B0] text-[#7649B0] hover:bg-[#7649B0] hover:text-white text-lg px-8 py-6">
-                <MessageCircle className="mr-2 w-5 h-5" />
-                Lista VIP
-              </Button>
+              <a href="https://dentalw.cl/" target="_blank" rel="noopener noreferrer">
+                <Button variant="outline" className="border-[#7649B0] text-[#7649B0] hover:bg-[#7649B0] hover:text-white text-lg px-8 py-6 w-full">
+                  <ExternalLink className="mr-2 w-5 h-5" />
+                  Visita nuestra web
+                </Button>
+              </a>
             </div>
             <div className="bg-white rounded-xl p-6 shadow-lg border-2 border-[#B98DFF]">
               <div className="flex items-center justify-between mb-4">
@@ -82,7 +84,6 @@ export function Hero() {
               height={800}
               className="relative rounded-3xl shadow-2xl w-full object-cover"
               priority
-              unoptimized={true}
             />
           </div>
         </div>
