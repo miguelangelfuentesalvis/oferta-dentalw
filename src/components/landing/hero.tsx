@@ -6,23 +6,9 @@ import { Badge } from '@/components/ui/badge';
 import { Progress } from '@/components/ui/progress';
 import { Sparkles, ChevronRight, ExternalLink } from 'lucide-react';
 import { WHATSAPP_PROMO_URL } from '@/lib/constants';
-import React, { useState, useEffect } from 'react';
+import React from 'react';
 
-export function Hero() {
-  const [vouchersLeft, setVouchersLeft] = useState(0);
-
-  useEffect(() => {
-    // Inicializa con un número "aleatorio" creíble entre 65 y 90 para cada visita
-    const initialVouchers = Math.floor(Math.random() * (90 - 65 + 1)) + 65;
-    setVouchersLeft(initialVouchers);
-
-    // Disminuye el número de vouchers lentamente con el tiempo
-    const interval = setInterval(() => {
-      setVouchersLeft((prev) => (prev > 10 ? prev - 1 : prev));
-    }, 15000); // Reduce 1 voucher cada 15 segundos
-
-    return () => clearInterval(interval);
-  }, []);
+export function Hero({ vouchersLeft }: { vouchersLeft: number }) {
 
   return (
     <section className="relative overflow-hidden">

@@ -2,7 +2,7 @@ import { Button } from '@/components/ui/button';
 import { ChevronRight } from 'lucide-react';
 import { WHATSAPP_PROMO_URL } from '@/lib/constants';
 
-export function Cta() {
+export function Cta({ vouchersLeft }: { vouchersLeft: number }) {
   return (
     <section className="py-16 md:py-24 bg-white">
       <div className="container mx-auto px-4 md:px-6">
@@ -11,7 +11,7 @@ export function Cta() {
             ¡No Pierdas Esta Oportunidad!
           </h2>
           <p className="text-lg md:text-xl mb-8 max-w-2xl mx-auto text-purple-100">
-            Solo quedan <span className="font-bold text-2xl md:text-3xl text-white">100</span> vouchers disponibles
+            Solo quedan <span className="font-bold text-2xl md:text-3xl text-white">{vouchersLeft}</span> vouchers disponibles
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a href={WHATSAPP_PROMO_URL} target="_blank" rel="noopener noreferrer">
