@@ -14,11 +14,6 @@ export const metadata: Metadata = {
   title: 'Black Friday - Clínica Dental W',
   description:
     'Black Friday Clínica Dental W: Plan Dúo de Prevención W por solo $39.990. 2 Limpiezas Dentales + Diagnóstico Digital. ¡Solo 100 vouchers disponibles!',
-  icons: {
-    icon: '/favicon.ico?v=2',
-    shortcut: '/favicon.ico?v=2',
-    apple: '/favicon.ico?v=2',
-  },
 };
 
 export default function RootLayout({
@@ -28,6 +23,11 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="es" className={`${montserrat.variable}`}>
+      <head>
+        <link rel="icon" href="/favicon.ico?v=3" sizes="any" />
+        <link rel="shortcut icon" href="/favicon.ico?v=3" />
+        <link rel="apple-touch-icon" href="/favicon.ico?v=3" />
+      </head>
       <body className="font-body antialiased">
         {children}
         <Toaster />
