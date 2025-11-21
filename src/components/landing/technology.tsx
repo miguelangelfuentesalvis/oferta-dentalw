@@ -22,6 +22,7 @@ export function Technology() {
               width={800}
               height={600}
               className="rounded-2xl shadow-2xl"
+              unoptimized={true}
             />
           </div>
           <div className="space-y-6">

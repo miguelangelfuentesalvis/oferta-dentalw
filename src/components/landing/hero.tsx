@@ -82,6 +82,7 @@ export function Hero() {
               height={800}
               className="relative rounded-3xl shadow-2xl w-full object-cover"
               priority
+              unoptimized={true}
             />
           </div>
         </div>
