@@ -1,5 +1,6 @@
 import Image from 'next/image';
 import { CircleCheck } from 'lucide-react';
+import imageData from '@/lib/placeholder-images.json';
 
 const features = [
     "Detección temprana de problemas dentales",
@@ -17,12 +18,12 @@ export function Technology() {
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           <div>
             <Image
-              src="/images/diagnostics-image.jpg"
+              src={imageData.diagnostics.src}
               alt="Tecnología Dental W"
               width={800}
               height={600}
               className="rounded-2xl shadow-2xl"
-              unoptimized={true}
+              data-ai-hint={imageData.diagnostics.hint}
             />
           </div>
           <div className="space-y-6">
