@@ -24,9 +24,9 @@ export default function RootLayout({
   return (
     <html lang="es" className={`${montserrat.variable}`}>
       <head>
-        <link rel="icon" href="/favicon.ico?v=3" sizes="any" />
-        <link rel="shortcut icon" href="/favicon.ico?v=3" />
-        <link rel="apple-touch-icon" href="/favicon.ico?v=3" />
+        <link rel="icon" href="/favicon-dentalw.ico" sizes="any" />
+        <link rel="shortcut icon" href="/favicon-dentalw.ico" />
+        <link rel="apple-touch-icon" href="/favicon-dentalw.ico" />
       </head>
       <body className="font-body antialiased">
         {children}
