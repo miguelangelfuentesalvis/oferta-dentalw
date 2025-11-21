@@ -7,9 +7,11 @@ import { Progress } from '@/components/ui/progress';
 import { Sparkles, ChevronRight, MessageCircle } from 'lucide-react';
 import { WHATSAPP_PROMO_URL } from '@/lib/constants';
 import React, { useState, useEffect } from 'react';
+import placeholderImages from '@/lib/placeholder-images.json';
 
 export function Hero() {
   const [vouchersLeft, setVouchersLeft] = useState(0);
+  const heroImage = placeholderImages.hero;
 
   useEffect(() => {
     // Inicializa con un número "aleatorio" creíble entre 65 y 90 para cada visita
@@ -76,12 +78,12 @@ export function Hero() {
           <div className="relative">
              <div className="absolute inset-0 bg-gradient-to-br from-[#7649B0] to-[#B98DFF] rounded-3xl transform rotate-3 opacity-20" />
             <Image
-              src="/hero-dental-landin.jpg"
-              alt="Sonrisa de mujer joven y feliz en clínica dental"
-              width={800}
-              height={600}
+              src={heroImage.src}
+              alt={heroImage.alt}
+              width={heroImage.width}
+              height={heroImage.height}
               className="relative rounded-3xl shadow-2xl w-full object-cover"
-              data-ai-hint="dental clinic"
+              data-ai-hint={heroImage.hint}
               priority
             />
           </div>
