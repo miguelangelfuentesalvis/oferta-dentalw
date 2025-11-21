@@ -63,7 +63,7 @@ export function Hero() {
               <a href="https://dentalw.cl/" target="_blank" rel="noopener noreferrer">
                 <Button variant="outline" className="border-[#7649B0] text-[#7649B0] hover:bg-[#7649B0] hover:text-white text-lg px-8 py-6 w-full">
                   <ExternalLink className="mr-2 w-5 h-5" />
-                  Visita nuestra web
+                  dentalw.cl
                 </Button>
               </a>
             </div>
