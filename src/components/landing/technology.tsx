@@ -1,5 +1,6 @@
 import Image from 'next/image';
 import { CircleCheck } from 'lucide-react';
+import placeholderImages from '@/lib/placeholder-images.json';
 
 const features = [
     "Detección temprana de problemas dentales",
@@ -10,18 +11,20 @@ const features = [
   ];
 
 export function Technology() {
+  const diagnosticsImage = placeholderImages.diagnostics;
+
   return (
     <section className="py-16 md:py-24">
       <div className="container mx-auto px-4 md:px-6">
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           <div>
             <Image
-              src="/diagnostics.jpg"
-              alt="Tecnología Dental W"
-              width={800}
-              height={600}
+              src={diagnosticsImage.src}
+              alt={diagnosticsImage.alt}
+              width={diagnosticsImage.width}
+              height={diagnosticsImage.height}
               className="rounded-2xl shadow-2xl"
-              data-ai-hint="dental technology"
+              data-ai-hint={diagnosticsImage.hint}
             />
           </div>
           <div className="space-y-6">
