@@ -7,7 +7,6 @@ import { Progress } from '@/components/ui/progress';
 import { Sparkles, ChevronRight, MessageCircle } from 'lucide-react';
 import { WHATSAPP_PROMO_URL } from '@/lib/constants';
 import React, { useState, useEffect } from 'react';
-import imageData from '@/lib/placeholder-images.json';
 
 export function Hero() {
   const [vouchersLeft, setVouchersLeft] = useState(0);
@@ -77,13 +76,13 @@ export function Hero() {
           <div className="relative">
              <div className="absolute inset-0 bg-gradient-to-br from-[#7649B0] to-[#B98DFF] rounded-3xl transform rotate-3 opacity-20" />
             <Image
-              src={imageData.hero.src}
+              src="/hero-image.jpg"
               alt="Sonrisa de mujer joven y feliz en clínica dental"
               width={800}
               height={800}
               className="relative rounded-3xl shadow-2xl w-full object-cover"
               priority
-              data-ai-hint={imageData.hero.hint}
+              unoptimized={true}
             />
           </div>
         </div>
