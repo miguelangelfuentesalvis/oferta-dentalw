@@ -1,16 +1,16 @@
 {
-  "hero": {
-    "src": "https://picsum.photos/seed/hero-dental/800/600",
-    "alt": "Sonrisa de mujer joven y feliz en clínica dental",
-    "width": 800,
-    "height": 600,
-    "hint": "dental clinic"
-  },
   "diagnostics": {
     "src": "https://picsum.photos/seed/diagnostics/800/600",
     "alt": "Tecnología Dental W",
     "width": 800,
     "height": 600,
     "hint": "dental technology"
+  },
+  "hero": {
+    "src": "https://picsum.photos/seed/hero/800/800",
+    "alt": "Sonrisa de mujer joven y feliz en clínica dental",
+    "width": 800,
+    "height": 800,
+    "hint": "woman smiling dentist"
   }
 }
