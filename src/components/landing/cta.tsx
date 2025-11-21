@@ -16,7 +16,7 @@ export function Cta({ vouchersLeft }: { vouchersLeft: number }) {
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a href={WHATSAPP_PROMO_URL} target="_blank" rel="noopener noreferrer">
               <Button className="bg-white text-[#7649B0] hover:bg-gray-100 text-lg md:text-xl px-8 md:px-12 py-6 md:py-8 shadow-xl">
-                Comprar Ahora - $39.990
+                Comprar Ahora
                 <ChevronRight className="ml-2 w-6 h-6" />
               </Button>
             </a>

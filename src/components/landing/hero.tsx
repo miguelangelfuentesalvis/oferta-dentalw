@@ -22,23 +22,26 @@ export function Hero({ vouchersLeft }: { vouchersLeft: number }) {
             </Badge>
             <div className="space-y-4">
               <h1 className="text-4xl md:text-6xl font-bold leading-tight">
-                <span className="text-[#28124C]">Plan Dúo de</span>
+                <span className="text-[#28124C]">Plan</span>
                 <br />
-                <span className="text-[#7649B0]">Prevención W</span>
+                <span className="text-[#7649B0]">Preventivo</span>
               </h1>
               <p className="text-xl text-gray-600 max-w-xl">
-                2 Limpiezas Dentales Profesionales + Diagnóstico Digital W
+                1 Limpieza por $19.990 o 2 por $34.990. ¡Ambas con Evaluación Gratis!
               </p>
             </div>
-            <div className="flex items-baseline gap-4 flex-wrap">
+            
+            <div className="flex items-center gap-6 flex-wrap">
               <div className="flex items-baseline gap-2">
-                <span className="text-5xl md:text-6xl font-bold text-[#7649B0]">$39.990</span>
+                <span className="text-gray-500 text-lg">2 x</span>
+                <span className="text-5xl md:text-6xl font-bold text-[#7649B0]">$34.990</span>
               </div>
               <div className="flex flex-col">
-                <span className="text-2xl text-gray-400 line-through">$80.000</span>
+                <span className="text-2xl text-gray-400 line-through">$70.000</span>
                 <Badge variant="destructive" className="w-fit">50% OFF</Badge>
               </div>
             </div>
+
             <div className="flex flex-col sm:flex-row gap-4">
                <a href={WHATSAPP_PROMO_URL} target="_blank" rel="noopener noreferrer">
                 <Button className="bg-[#7649B0] hover:bg-[#28124C] text-white text-lg px-8 py-6 shadow-xl hover:shadow-2xl transition-all">

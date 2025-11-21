@@ -10,16 +10,16 @@ const faqs = [
     answer: 'Sí, el voucher es transferible. Es el regalo perfecto para cuidar la sonrisa de tus seres queridos.',
   },
   {
-    question: '¿Qué incluye exactamente el Diagnóstico Digital W?',
-    answer: 'Incluye evaluación completa con imágenes digitales, detección de caries, problemas de encías y recomendaciones personalizadas.',
+    question: '¿Qué incluye exactamente la Evaluación Gratis?',
+    answer: 'Incluye una revisión completa por un profesional, diagnóstico con imágenes digitales, detección de caries y recomendaciones personalizadas.',
   },
   {
     question: '¿Hay costos adicionales?',
-    answer: 'No. El precio de $39.990 incluye todo lo mencionado: 2 limpiezas completas + diagnóstico digital.',
+    answer: 'El precio de la oferta incluye la limpieza y la evaluación. Puedes añadir flúor por un costo adicional de $4.990 por persona si lo deseas.',
   },
   {
-    question: '¿Puedo agendar ambas limpiezas el mismo día?',
-    answer: 'No, las limpiezas están diseñadas para mantener tu salud bucal. La segunda se agenda 3 meses después de la primera.',
+    question: 'Si compro el plan de 2 limpiezas, ¿puedo agendarlas el mismo día?',
+    answer: 'No, las limpiezas están diseñadas para mantener tu salud bucal. La segunda se agenda 3 o 4 meses después de la primera.',
   },
 ];
 
