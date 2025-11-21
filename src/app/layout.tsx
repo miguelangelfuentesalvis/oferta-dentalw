@@ -15,7 +15,7 @@ export const metadata: Metadata = {
   description:
     'Black Friday Clínica Dental W: Plan Dúo de Prevención W por solo $39.990. 2 Limpiezas Dentales + Diagnóstico Digital. ¡Solo 100 vouchers disponibles!',
   icons: {
-    icon: '/favicon-dentalw.ico',
+    icon: '/favicon.ico',
   },
 };
 
