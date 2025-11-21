@@ -17,7 +17,7 @@ export function Technology() {
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           <div>
             <Image
-              src="/diagnostics-image.jpg"
+              src="/diagnostics.jpg"
               alt="Tecnología Dental W"
               width={800}
               height={600}

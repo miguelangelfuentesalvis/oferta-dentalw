@@ -76,7 +76,7 @@ export function Hero() {
           <div className="relative">
              <div className="absolute inset-0 bg-gradient-to-br from-[#7649B0] to-[#B98DFF] rounded-3xl transform rotate-3 opacity-20" />
             <Image
-              src="/hero-image.jpg"
+              src="/hero-dental.jpg"
               alt="Sonrisa de mujer joven y feliz en clínica dental"
               width={800}
               height={800}
