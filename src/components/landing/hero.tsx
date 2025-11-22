@@ -43,7 +43,7 @@ export function Hero({ vouchersLeft }: { vouchersLeft: number }) {
             <div className="flex flex-col sm:flex-row gap-4">
                <a href={WHATSAPP_PROMO_URL} target="_blank" rel="noopener noreferrer">
                 <Button className="bg-accent hover:bg-accent/90 text-accent-foreground text-lg px-8 py-6 shadow-xl hover:shadow-2xl transition-all">
-                  Comprar Ahora
+                  Quiero mi Evaluación Sin Prisas
                   <ChevronRight className="ml-2 w-5 h-5" />
                 </Button>
               </a>
