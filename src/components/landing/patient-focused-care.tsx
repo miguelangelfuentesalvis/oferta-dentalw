@@ -28,7 +28,7 @@ export function PatientFocusedCare() {
           <div className="relative order-last lg:order-first">
              <div className="absolute inset-0 bg-gradient-to-br from-[#7649B0] to-[#B98DFF] rounded-3xl transform -rotate-3 opacity-20" />
             <Image
-              src="/patient-care.jpg"
+              src="/patient-care.png"
               alt="Dentista explicando procedimiento a paciente"
               width={800}
               height={600}
