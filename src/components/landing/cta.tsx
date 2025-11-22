@@ -22,7 +22,7 @@ export function Cta({ vouchersLeft }: { vouchersLeft: number }) {
             </a>
           </div>
           <p className="text-sm mt-8 text-purple-200">
-            Oferta válida del 27 al 30 de noviembre de 2025
+            Oferta válida del 24 de Noviembre al 3 de Diciembre de 2025
           </p>
         </div>
       </div>

@@ -18,16 +18,14 @@ export function Hero({ vouchersLeft }: { vouchersLeft: number }) {
           <div className="space-y-8">
             <Badge className="bg-[#28124C] text-white hover:bg-[#28124C]/90 text-sm px-4 py-2">
               <Sparkles className="w-4 h-4 mr-2" />
-              Black Friday Exclusivo
+              Black Week Exclusivo
             </Badge>
             <div className="space-y-4">
-              <h1 className="text-4xl md:text-6xl font-bold leading-tight">
-                <span className="text-[#28124C]">Plan</span>
-                <br />
-                <span className="text-[#7649B0]">Preventivo</span>
+              <h1 className="text-4xl md:text-6xl font-bold leading-tight text-[#28124C]">
+                Invierte en una atención que te escucha.
               </h1>
               <p className="text-xl text-gray-600 max-w-xl">
-                1 Limpieza por $19.990 o 2 por $34.990. ¡Ambas con Evaluación Gratis!
+                Plan Dúo de Prevención W: Limpieza Profunda + Evaluación Dedicada. Sin prisas, sin tecnicismos, solo tranquilidad.
               </p>
             </div>
             

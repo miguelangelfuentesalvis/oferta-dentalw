@@ -3,7 +3,7 @@ import { Hero } from '@/components/landing/hero';
 import { CountdownBanner } from '@/components/landing/countdown-banner';
 import { WhatsIncluded } from '@/components/landing/whats-included';
 import { HowItWorks } from '@/components/landing/how-it-works';
-import { Technology } from '@/components/landing/technology';
+import { PatientFocusedCare } from '@/components/landing/patient-focused-care';
 import { Faq } from '@/components/landing/faq';
 import { Cta } from '@/components/landing/cta';
 import { Footer } from '@/components/landing/footer';
@@ -32,7 +32,7 @@ export default function HomePage() {
       <CountdownBanner />
       <WhatsIncluded />
       <HowItWorks />
-      <Technology />
+      <PatientFocusedCare />
       <Faq />
       <Cta vouchersLeft={vouchersLeft} />
       <Footer />

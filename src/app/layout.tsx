@@ -11,9 +11,9 @@ const montserrat = Montserrat({
 });
 
 export const metadata: Metadata = {
-  title: 'Oferta Black Friday - Plan Preventivo Dental',
+  title: 'Oferta Black Week - Plan Preventivo Dental',
   description:
-    'Oferta Clínica Dental W: 1 Limpieza por $19.990 o 2 por $34.990. Ambas incluyen Evaluación Gratis. ¡Aprovecha ahora!',
+    'Oferta Clínica Dental W: Invierte en una atención que te escucha. Plan Dúo de Prevención con Limpieza Profunda y Evaluación Dedicada.',
 };
 
 export default function RootLayout({

@@ -4,7 +4,7 @@ const steps = [
     {
       icon: CircleCheck,
       title: 'Compra tu Voucher',
-      description: 'Adquiere tu Plan Dúo durante el Black Friday (27-30 nov)',
+      description: 'Adquiere tu Plan Preventivo durante la Black Week (24 Nov - 3 Dic)',
     },
     {
       icon: MessageCircle,
@@ -14,12 +14,12 @@ const steps = [
     {
       icon: Calendar,
       title: 'Agenda tu Cita',
-      description: 'Tienes 3-4 meses para agendar tu primera limpieza',
+      description: 'Tienes 3-4 meses para agendar tu primera limpieza y evaluación',
     },
     {
       icon: Sparkles,
       title: 'Disfruta tu Sonrisa',
-      description: 'Recibe tu tratamiento y diagnóstico profesional',
+      description: 'Recibe tu tratamiento y siéntete tranquilo con tu salud bucal',
     },
   ];
 
