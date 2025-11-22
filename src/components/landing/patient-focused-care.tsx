@@ -1,6 +1,5 @@
 import Image from 'next/image';
 import { Eye, MapPin, Smile } from 'lucide-react';
-import placeholderData from '@/lib/placeholder-images.json';
 
 const features = [
     {
@@ -29,9 +28,8 @@ export function PatientFocusedCare() {
           <div className="relative order-last lg:order-first">
              <div className="absolute inset-0 bg-gradient-to-br from-[#7649B0] to-[#B98DFF] rounded-3xl transform -rotate-3 opacity-20" />
             <Image
-              src={placeholderData.diagnostics.src}
+              src="/patient-care.jpg"
               alt="Dentista explicando procedimiento a paciente"
-              data-ai-hint={placeholderData.diagnostics.hint}
               width={800}
               height={600}
               className="relative rounded-2xl shadow-2xl"
