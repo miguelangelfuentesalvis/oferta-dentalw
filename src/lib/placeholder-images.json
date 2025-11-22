@@ -1,10 +1,10 @@
 {
   "hero": {
-    "src": "https://picsum.photos/seed/hero/800/800",
-    "hint": "woman smiling dentist"
+    "src": "https://picsum.photos/seed/patientSmile/800/800",
+    "hint": "patient smiling"
   },
   "diagnostics": {
-    "src": "https://picsum.photos/seed/diagnostics/800/600",
-    "hint": "dental technology"
+    "src": "https://picsum.photos/seed/dentistPatient/800/600",
+    "hint": "dentist patient"
   }
 }
