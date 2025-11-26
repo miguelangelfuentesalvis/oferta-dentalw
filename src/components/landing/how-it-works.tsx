@@ -4,7 +4,7 @@ const steps = [
     {
       icon: CircleCheck,
       title: 'Compra tu Voucher',
-      description: 'Adquiere tu Plan Preventivo durante la Black Week (24 Nov - 3 Dic)',
+      description: 'Adquiere tu Plan Preventivo durante la Black Week (24 Nov - 6 Dic)',
     },
     {
       icon: MessageCircle,

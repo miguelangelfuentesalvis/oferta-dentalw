@@ -20,7 +20,7 @@ export function CountdownBanner() {
   } | null>(null);
 
   useEffect(() => {
-    const targetDate = new Date('2025-12-03T23:59:59');
+    const targetDate = new Date('2025-12-06T23:59:59');
 
     const interval = setInterval(() => {
       const now = new Date();
